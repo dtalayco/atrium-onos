@@ -14,6 +14,7 @@ touch ~/.atrium_setup_done
 
 echo "Setting up system for Atrium-ONOS development"
 sudo apt-get update
+sudo apt-get install openssh-server -y
 sudo apt-get install git -y
 
 [ -d ~/atrium-onos ] || \
