@@ -6,6 +6,8 @@
 #
 # Assumes atrium-onos is checked out in top level directory
 
+cd ~
+
 [ -f ~/.atrium_setup_done ] && \
   echo "Script already run. Remove .atrium_setup_done and re-run" && \
   return
