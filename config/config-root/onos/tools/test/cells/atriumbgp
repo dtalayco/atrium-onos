@@ -1,0 +1,7 @@
+
+export ONOS_NIC=__ONOS_SUBNET_STARRED__
+export OC1="__ONOS_IP_ADDR__"
+export OC2="__ONOS_IP_ADDR__"
+export OCN="__ONOS_IP_ADDR__"
+
+export ONOS_APPS="openflow,proxyarp,bgprouter"
