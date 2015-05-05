@@ -43,7 +43,7 @@ echo JAVA_HOME $JAVA_HOME
 ~/atrium-onos/config/install.py
 cell atriumbgp
 
-local_ip=`~/atrium-onos/tools/local_ip.py`
+local_ip=`~/atrium-onos/scripts/local_ip.py`
 echo "Setting up Karaf with local IP $local_ip"
 onos-setup-karaf clean $local_ip
 echo "Building ONOS"
