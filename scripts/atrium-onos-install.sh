@@ -47,4 +47,6 @@ local_ip=`~/atrium-onos/scripts/local_ip.py`
 echo "Setting up Karaf with local IP $local_ip"
 onos-setup-karaf clean $local_ip
 echo "Building ONOS"
+# Run the config install script again as karaf clean may remove some files
+~/atrium-onos/config/install.py
 cd ~/onos && mvn clean install
